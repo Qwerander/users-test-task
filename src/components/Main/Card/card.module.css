@@ -1,0 +1,75 @@
+.card {
+
+    padding: 36px 20px 20px;
+    background: var(--white);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    width: calc((100% / 4) - 15px);
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 44px;
+}
+
+.wrapper .like {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+
+.img {
+    display: block;
+    margin-bottom: 16px;
+    width: 124px;
+    height: 124px;
+    border-radius: 100%;
+}
+
+.name {
+    margin: 0;
+    margin-bottom: 8px;
+    justify-self: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.mail {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--grey);
+
+}
+
+.btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    align-self: center;
+    padding: 2px 16px;
+    border: 1px solid var(--grey);
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--grey);
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: var(--white);
+    background-color: var(--violet);
+}
